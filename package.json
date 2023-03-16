@@ -1,0 +1,42 @@
+{
+  "name": "eriegz-technical-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "build-dev": "tsc -w",
+    "dev": "npm run env NODE_ENV=dev -- nodemon --exec npm run start",
+    "start": "node dist/app.js",
+    "test": "npm run env NODE_ENV=test -- mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carewell/eriegz-technical-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carewell/eriegz-technical-assessment/issues"
+  },
+  "homepage": "https://github.com/carewell/eriegz-technical-assessment#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cli-color": "^2.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "ioredis": "^5.3.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "password-validator": "^5.3.0",
+    "tracer": "^1.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.1",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0"
+  }
+}
