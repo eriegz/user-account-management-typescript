@@ -1,5 +1,7 @@
 # **User Account Management TypeScript**
 
+This is a sample backend REST API server that provides simple user account management (i.e.: user account registration, login, etc.), implements request caching via redis, and saves its data to MongoDB.
+
 ## **Prerequisites:**
 
 ### Node.js dependencies:
