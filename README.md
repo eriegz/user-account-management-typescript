@@ -1,4 +1,4 @@
-# **eriegz technical assessment**
+# **User Account Management TypeScript**
 
 ## **Prerequisites:**
 
